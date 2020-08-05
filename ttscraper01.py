@@ -3,7 +3,7 @@ import time
 
 busca01 = input('Digite o termo da primeira busca: ')
 idioma = input('Defina o idioma da busca (para buscar todos os idiomas, digite todos): ').strip().lower()
-if idioma == 'português':
+if idioma == 'portugues':
     idioma = '\'' + 'pt' + '\''
 elif idioma == 'inglês':
     idioima = '\'' + 'en' + '\''

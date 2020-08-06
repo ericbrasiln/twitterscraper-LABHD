@@ -1,0 +1,7 @@
+-Raspagem do Twitter-
+Termo da busca: 'digital history';
+Usuário buscado: None;
+Data e hora da busca: 2020-08-05 22:51:57.498725; 
+Idioma da busca: None;
+Data do início da busca: 2019-01-01 00:00:00;
+Nome da pasta: s_digital history_20200805.

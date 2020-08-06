@@ -12,7 +12,7 @@ lista = ['sociologia digital', '#sociologiadigital']
 #Loop de raspagem de cada termo: 
 for busca in lista:
     c = twint.Config() #configurar os parâmatros de busca do twint
-    c.Search = "'"+busca+"'"    
+    c.Search = "'"+busca+"'" #aqui podemos substituir por c.Username
     nome = busca+'_'+timestr
     c.Output = os.path.join('DATA', nome) #pasta de saída
     if not os.path.exists(c.Output): #se a pasta não existe, cria a pasta DATA
@@ -34,7 +34,7 @@ for busca in lista:
           'Nome da pasta: {}.'.format(c.Search, data, c.Lang, c.Since, c.Until, nome)
           )
        
-    #criação do relatório com os dados da busca?
+    #criação do relatório com os dados da busca:
     relatórioPath = os.path.join(c.Output, 'relatório')
     relatório = open('{}_{}.txt'.format(relatórioPath, nome), 'w')
     relatório.write('-Raspagem do Twitter-\n'

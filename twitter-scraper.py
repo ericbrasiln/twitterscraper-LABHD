@@ -6,15 +6,19 @@ import os
 data = datetime.now()
 timestr = time.strftime("%Y%m%d")
 
+print('-Script para raspagem de dados do Twitter-\n'
+      'Defina os parâmetros para sua busca.\n'
+      'A saída gera um relatório da busca e um arquivo CSV com os dados.\n')
+
 parametro = input('Busca por termo (1) ou por usuário (2) ou ambos (3)? ')
-c = twint.Config()
+c = twint.Config() #configurar os parâmatros de busca do twint
 if parametro == '1':
     busca = input('Digite o termo da busca: ')
     c.Search = "'"+busca+"'"
     c.Username = None
     nome = 's_'+busca+'_'+timestr    
-    c.Output = os.path.join('DATA', nome)
-    if not os.path.exists(c.Output):
+    c.Output = os.path.join('DATA', nome) #pasta de saída
+    if not os.path.exists(c.Output): #se a pasta não existe, cria a pasta DATA
         os.makedirs(c.Output)
     
 elif parametro == '2':
@@ -55,9 +59,10 @@ if períodoFinal == '':
 else:
     c.Until = períodoFinal
 
-c.Store_csv = True
-c.Hide_output = True
+c.Store_csv = True #define o arquivo final como csv
+c.Hide_output = True #esconde a raspagem em tempo real
 
+ #imprime o resumo dos parâmetros
 print('\n'
       '-Raspagem do Twitter-\n'
       'Termo da busca: {};\n'
@@ -71,10 +76,10 @@ print('\n'
 
 time.sleep(1)
 
-reportPath = os.path.join(c.Output, 'relatório')
-
 runScript = input('Tudo ok? (s/n): ').strip().lower()
 
+#criação do relatório com os dados da busca:
+reportPath = os.path.join(c.Output, 'relatório')
 if runScript == 's':    
     relatório = open('{}_{}.txt'.format(reportPath, nome), 'w')
     relatório.write(

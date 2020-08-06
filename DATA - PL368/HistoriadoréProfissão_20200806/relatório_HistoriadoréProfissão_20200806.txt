@@ -1,0 +1,6 @@
+-Raspagem do Twitter-
+Termo da busca: 'HistoriadoréProfissão';
+Data e hora da busca: 2020-08-06 12:21:21.661414; 
+Idioma da busca: None;
+Data do início da busca: None;
+Nome da pasta: HistoriadoréProfissão_20200806.

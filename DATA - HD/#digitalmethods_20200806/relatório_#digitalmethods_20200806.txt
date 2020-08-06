@@ -1,0 +1,6 @@
+-Raspagem do Twitter-
+Termo da busca: '#digitalmethods';
+Data e hora da busca: 2020-08-06 14:24:00.445948; 
+Idioma da busca: None;
+Data do início da busca: None;
+Nome da pasta: #digitalmethods_20200806.

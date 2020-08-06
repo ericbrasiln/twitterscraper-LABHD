@@ -1,0 +1,6 @@
+-Raspagem do Twitter-
+Termo da busca: '#digitalhumanities';
+Data e hora da busca: 2020-08-06 12:30:15.048196; 
+Idioma da busca: None;
+Data do início da busca: None;
+Nome da pasta: #digitalhumanities_20200806.

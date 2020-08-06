@@ -1,6 +1,0 @@
--Raspagem do Twitter-
-Termo da busca: história digital;
-Data e hora da busca: 2020-08-05 19:03:35.595080; 
-Idioma da busca: None;
-Data do início da busca: 2019-01-01 00:00:00;
-Nome da pasta: história digital_20200805.

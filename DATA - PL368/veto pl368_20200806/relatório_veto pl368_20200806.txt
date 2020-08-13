@@ -1,6 +1,0 @@
--Raspagem do Twitter-
-Termo da busca: 'veto pl368';
-Data e hora da busca: 2020-08-06 12:21:21.661414; 
-Idioma da busca: None;
-Data do início da busca: None;
-Nome da pasta: veto pl368_20200806.

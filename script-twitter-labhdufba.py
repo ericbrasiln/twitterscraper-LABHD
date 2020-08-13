@@ -7,7 +7,8 @@ data = datetime.now()
 timestr = time.strftime("%Y%m%d")
 
 #Definir a lista de termos para busca:
-lista = ['sociologia digital', '#sociologiadigital'] 
+lista = ['historiador é profissão', '#derrubavetopl368', '#historiadoréprofissão', '#históriaéprofissão','#derrubaveto368',
+        '#derrubaoveto368', 'veto pl 368'] 
 
 #Loop de raspagem de cada termo: 
 for busca in lista:

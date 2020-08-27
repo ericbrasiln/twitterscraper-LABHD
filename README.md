@@ -1,2 +1,2 @@
 # twitterscraper
- Código para raspadar dados do Twitter usando a biblioteca twint
+ Código para raspagem de dados do Twitter usando a biblioteca twint.

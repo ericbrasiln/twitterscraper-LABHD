@@ -17,9 +17,9 @@ Código em Python 3.8 para raspagem de dados do Twitter usando a biblioteca twin
 
 Neste repositório você encontra dois scripts: 
 
-1. Script para raspagem de uma lista de termos ou usuários. Necessidade de configuração dos parâmetros no próprio código;
+1. `tt_script.py`: Script para raspagem de uma lista de termos ou usuários. Necessidade de configuração dos parâmetros no próprio código;
 
-2. Script para busca de termo ou de usuário através de inserção dos parâmetros ao rodar o programa. Ideal para usuários iniciantes. 
+2. `tt_user.py`: Script para busca de termo ou de usuário através de inserção dos parâmetros ao rodar o programa. Ideal para usuários iniciantes. 
 
 ## INSTALAÇÃO
 

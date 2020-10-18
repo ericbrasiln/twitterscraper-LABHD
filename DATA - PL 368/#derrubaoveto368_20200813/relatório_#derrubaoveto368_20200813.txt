@@ -1,8 +1,0 @@
--Raspagem do Twitter-
-Termo da busca: '#derrubaoveto368';
-Data e hora da busca: 2020-08-13 14:44:16.924547; 
-Idioma da busca: None;
-Data do início da busca: None;
-Data do final da busca: None;
-Data do final da busca: None;
-Nome da pasta: #derrubaoveto368_20200813.

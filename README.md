@@ -1,4 +1,4 @@
-<p align="center"><img src="logos.png"/></p>
+<p align="center"><img height="%30" width ="30%" src="labhd.png"/></p>
 
 # Twitterscraper-LABHD
 

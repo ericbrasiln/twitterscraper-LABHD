@@ -1,7 +1,0 @@
--Raspagem do Twitter-
-Termo da busca: 'sociologia digital';
-Data e hora da busca: 2020-10-17 23:42:57.421058; 
-Idioma da busca: None;
-Data do início da busca: None;
-Data do final da busca: None;
-Nome da pasta: sociologia digital_20201017.

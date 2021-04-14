@@ -48,7 +48,7 @@ Após a instalação, vc pode executar o arquivo .py direto do prompt de comando
 3. Execute o arquivo usando Python3.8
    
    ```python
-   $ python twitter-scraper.py
+   $ python tt_user.py
    ```
 
 ### Twint
